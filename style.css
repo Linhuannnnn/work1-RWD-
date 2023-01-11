@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 微軟正黑體;
+}
+
+#wrap{
+  margin: 0 auto;
+  width: 1024px;
+}
+
+header{
+  background-color: black;
+  height: 100px;
+}
+
+header #logo{
+  height: 80px;
+  float: left;
+  margin-top: 10px;
+  /* margin-left: 35%; */
+}
+
+header #title{
+  color: white;
+  height: 100px;
+  float: left;
+  text-align: center;
+  font-size: 24px;
+  line-height: 100px;
+}
+
+ .img{
+  width: 100%;
+ }
+
+#content{
+  position: relative;
+  display: block;
+}
+
+#con1{
+ float: left;
+ width: 25%;
+ /* background-image: url(./images/枪刃原画.jpg);
+ background-repeat: no-repeat;
+ background-size: 100%; */
+ background-color: black;
+}
+
+.box{
+  height: 620px;
+}
+
+h2{
+  margin-top: 0%;
+  background-color: white;
+}
+p{
+  padding: 10px;
+  background-color: white;
+}
+
+.white{
+  background-color: black;
+  color: white;
+}
+
+#con2{
+  float: left;
+  width: 25%;
+  /* background-image: url(./images/暗黑骑士0.png);
+  background-repeat: no-repeat;
+  background-size: 100%; */
+  /* margin-left: 10px; */
+ }
+ 
+#con3{
+  float: left;
+  width: 25%;  
+  background-color: black;
+  /* background-image: url(./images/骑士0.jpg);
+
+  background-repeat: no-repeat;
+  background-size: 100%; */
+  /* margin-left: 10px; */
+ }
+
+ #con4{
+  float: left;
+  width: 25%;
+  /* background-image: url(./images/战士0.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; */
+  /* margin-left: 10px; */
+ }
+
+ footer{
+  clear: both;
+  height: 2rem;
+  color: white;
+  font-size: small;
+  line-height: 2rem;
+  text-align: center;
+  background-color: black;
+ }
+
+
+ /* 平板 */
+ @media screen and (max-width: 1079px) and (min-width: 481px) {
+  #wrap{
+    width: 100%;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  header{
+    height: 50px;
+  }
+  header #logo{
+    height: 50px;
+    float: left;
+    margin-top: 0px;
+    /* margin-left: 35%; */
+  }
+  
+  header #title{
+    color: white;
+    height: 50px;
+    float: left;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+  }
+  
+
+  #con1, #con2, #con3, #con4{
+    width: 50%;
+    height: 50%;
+    overflow: scroll;    
+  }
+/* 
+  .box{
+    height: 50%;
+
+    overflow: scroll;
+  } */
+  .img{
+    overflow: hidden;
+    /* margin-bottom: -90%; */
+  }
+
+ }
+
+ @media screen and (max-width: 480px) {
+  #wrap{
+    width: 100%;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  header{
+    height: 50px;
+  }
+  header #logo{
+    height: 50px;
+    float: left;
+    margin-top: 0px;
+    /* margin-left: 35%; */
+  }
+  
+  header #title{
+    color: white;
+    height: 50px;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+  }
+  
+
+  #con1, #con2, #con3, #con4{
+    width: 100%;
+    height: 25%;
+    overflow: scroll;
+  }
+
+  /* .box{
+    height: 49%;
+    margin-bottom: -50%;
+    overflow: scroll;
+  } */
+  .img{
+    overflow: hidden;
+    /* margin-bottom: -90%; */
+  }
+
+ }
